@@ -34,7 +34,7 @@
   <a href="https://leetcode.com/4ajUqPdkVC/" target="_blank">
     <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" height="35" />
   </a>
-  <a href="https://auth.geeksforgeeks.org/user/your-gfg-username/" target="_blank">
+  <a href="https://auth.geeksforgeeks.org/user/vaibhavrox710/" target="_blank">
     <img src="https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" height="35" />
   </a>
 </div>
