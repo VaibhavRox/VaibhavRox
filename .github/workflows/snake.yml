@@ -17,7 +17,7 @@ jobs:
           github_user_name: VaibhavRox
           outputs: |
             ./dist/github-contribution-grid-snake.svg
-
+          theme: dark
       - name: Push Snake SVG to output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
