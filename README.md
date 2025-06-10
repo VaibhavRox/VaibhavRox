@@ -42,10 +42,9 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/VaibhavRox/VaibhavRox/output/snake.svg" alt="Snake animation" />
 
 ###
  
-### 🐍 GitHub Contribution Snake
+
 
 ![GitHub Snake Animation](https://raw.githubusercontent.com/VaibhavRox/VaibhavRox/output/github-contribution-grid-snake.svg)
