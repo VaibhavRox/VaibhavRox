@@ -27,10 +27,10 @@
 ###
 
 <div align="left">
-  <a href="https://www.linkedin.com/in/your-linkedin-username/" target="_blank">
+  <a href="https://www.linkedin.com/in/devaraj-vaibhav-3116112a1/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="35" />
   </a>
-  <a href="https://leetcode.com/your-leetcode-username/" target="_blank">
+  <a href="https://leetcode.com/4ajUqPdkVC/" target="_blank">
     <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" height="35" />
   </a>
   <a href="https://auth.geeksforgeeks.org/user/your-gfg-username/" target="_blank">
