@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! My name is Vaibhav and I'm a VFX Artist and ML Learner from India.</h2>
+<h2 align="left">Hi 👋! My name is Vaibhav and I'm a  ML Learner from India.</h2>
 
 ###
 
