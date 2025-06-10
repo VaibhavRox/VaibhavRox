@@ -47,4 +47,4 @@
  
 
 
-![GitHub Snake Animation](https://raw.githubusercontent.com/VaibhavRox/VaibhavRox/output/github-contribution-grid-snake.svg)
+![GitHub Snake Animation](https://raw.githubusercontent.com/VaibhavRox/VaibhavRox/output/github-contribution-grid-snake-dark.svg)
