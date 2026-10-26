@@ -13,13 +13,33 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: generate snake.svg
+      - name: generate snake.svg (attempt 1)
+        id: generate_snake
+        uses: Platane/snk/svg-only@v3
+        continue-on-error: true
+        with:
+          github_user_name: VaibhavRox
+          outputs: dist/snake.svg?palette=github-dark
+
+      - name: generate snake.svg (attempt 2)
+        id: generate_snake_retry_1
+        if: steps.generate_snake.outcome == 'failure'
+        uses: Platane/snk/svg-only@v3
+        continue-on-error: true
+        with:
+          github_user_name: VaibhavRox
+          outputs: dist/snake.svg?palette=github-dark
+
+      - name: generate snake.svg (attempt 3)
+        id: generate_snake_retry_2
+        if: steps.generate_snake.outcome == 'failure' && steps.generate_snake_retry_1.outcome == 'failure'
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: VaibhavRox
           outputs: dist/snake.svg?palette=github-dark
 
       - name: push snake.svg to the output branch
+        if: steps.generate_snake.outcome == 'success' || steps.generate_snake_retry_1.outcome == 'success' || steps.generate_snake_retry_2.outcome == 'success'
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
